@@ -1,0 +1,43 @@
+button{
+    margin-left: 33%;
+    margin-right: 33%;
+    
+    margin-top: 5%;
+}
+.coin{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 20px solid black;
+    border-radius: 50%;
+    font-size: 400px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: gold;
+    background: linear-gradient(to right, gold, white, gold);
+  
+}
+
+    @keyframes rotation {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+           
+    }
+
+    .rotation{
+        animation: rotation 3s;
+    }
+
+
+   .result{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: gold;
+    text-shadow: 5px 5px 5px black;
+   }
